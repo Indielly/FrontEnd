@@ -1,0 +1,53 @@
+body{
+	background-color: #F4F3EF;
+}
+
+.form{
+	width: 400px; /* tamanho quadro */
+	margin: auto; /* centralizando a div */
+	padding-top: 40px; /* espaço entre o quadro */
+}
+
+.card{ /* .card pois card é uma classe */
+	box-shadow: 1px 1px 5px #4F4F4F; /* dando efeito de sombra na div */
+	background-color: white;
+	padding: 30px;
+	border-radius: 5px; /* arredondando borda*/
+}
+
+.card-top{
+	text-align: center;
+}
+
+.card-form{
+	margin-bottom: 10px; /* espaço entre labels email e senha */
+}
+
+.card-form label{
+	width: 100%;
+	color: #363636;
+	display: block; /* colocando label acima do input */
+}
+
+.card-form input{
+	border-radius: 5px;
+	outline: 0; /* retirando linha */
+	width: 100%;
+	height: 25px;
+	padding: 5px;
+}
+
+.card-form button{
+	background-image: linear-gradient(to right, gold, darkorange); /*colocando degrade */
+	width: 100%; /* alterando tamanho do botao */
+	border-radius: 30px;
+	padding: 15px; /* espaçamento */
+	border: 0px;
+	outline: 0; 
+}
+
+.img-login{
+	border-radius: 50px;
+	width: 100px;
+	box-shadow: 1px 1px 5px #4F4F4F; /* dando efeito de sombra na imagem */
+}
